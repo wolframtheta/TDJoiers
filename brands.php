@@ -13,6 +13,9 @@
 				<td width="0px"><a href="http://www.lucalorenzini.com/" target="_blank"><img src="../img/logos/logoLucaLorenzini.jpg" alt=""id="7" onmouseover="getElementById('7').src='../img/logos/logoLucaLorenziniHover.jpg';" onmouseout="getElementById('7').src='../img/logos/logoLucaLorenzini.jpg';" style="margin-top:50px;"></a></td>
 				<td width="0px"><a href="http://www.filiplaza.com/" target="_blank"><img src="../img/logos/logoFiliplaza.jpg" alt="" id="8" onmouseover="getElementById('8').src='../img/logos/logoFiliplazaHover.jpg';" onmouseout="getElementById('8').src='../img/logos/logoFiliplaza.jpg';"style="margin-top:50px;"></a></td>
 			</tr>
+			<tr>
+				<td width="0px"><a href="http://www.labruixeta.com/" target="_blank"><img src="../img/logos/logoLabruixeta.jpg" alt="" id="9" onmouseover="getElementById('9').src='../img/logos/logoLabruixetaHover.jpg';" onmouseout="getElementById('9').src='../img/logos/logoLabruixeta.jpg';"style="margin-top:50px;"></a></td>
+			</tr>
 		</table>
 	</div>
 </div>
