@@ -1,0 +1,558 @@
+body {
+background-color:#f1f2f2;
+margin-top:0px;
+margin-bottom:0px;
+}
+a {
+text-decoration:none;
+}
+p {
+margin:0px;
+padding:0px;
+}
+#web {
+width: 1024px;
+height:100%;
+margin-top:-7px;
+margin-left: auto;
+margin-right: auto;
+z-index:-1;
+}
+#header {
+text-align: center;
+background-color:#ffffff;
+}
+#top_menu {
+border-top: 1px solid #d7d7d8;
+height:23px;
+font-family: Lato;
+font-weight: 300;
+font-size:12px;
+background-color: #e9e9ea;
+z-index:5;
+position:relative;
+
+}
+.menu {
+color: #6c6c6c;
+border-right:1px solid #c1c1c1;
+}
+.menu:hover {
+text-decoration:underline;
+text-shadow: #cccccc 1px 0px 1px;
+}
+.menu2 {
+color: #6c6c6c;
+}
+.menu2:hover {
+text-decoration:underline;
+text-shadow: #cccccc 1px 0px 1px;
+}
+
+.container {
+    margin-left:auto;
+		margin-right:auto;
+}
+#bottom_menu {
+text-align:center;
+background-image:url('../img/fondo2.png');
+width:1024px;
+height:314px;
+margin-bottom:-14px;
+}
+.button:hover {
+opacity:0.5;
+}
+.button2:hover {
+opacity:0.8;
+}
+#footer {
+text-align:center;
+background-image:url('../img/fondo-footer.jpg');
+width:1024px;
+height:100%;
+}
+#footer_menu{
+border-top: 1px solid #d7d7d8;
+padding-top: 1px;
+padding-bottom: 1px;
+margin-top:-14px;
+
+}
+.footer_menu {
+font-family:montserrat;
+font-size:11px;
+color:#4f4e4e;
+padding-right:18px;
+border-right:1px solid #c1c1c1;
+
+}
+.footer_menu:hover {
+text-decoration:underline;
+text-shadow: #cccccc 1px 0px 1px;
+}
+.footer_menu2 {
+font-family:montserrat;
+font-size:11px;
+color:#4f4e4e;
+padding-right:18px;
+}
+.footer_menu2:hover {
+text-decoration:underline;
+text-shadow: #cccccc 1px 0px 1px;
+}
+
+input {
+  font-family:Lato;
+  font-weight: 300;
+  border:0px solid #ccc;
+  font-size:14px;
+	background-color:#ffffff;
+  width:273px;
+  height:26px;
+  display:block;
+	margin-left: auto;
+	margin-right:auto;
+  outline: none;
+	padding-left:10px;
+}
+.submit-buttonambros {
+background-image:url('../img/buttons/Ok.png');
+display:block;
+width:37px;
+height:22px;
+margin-top: -25px;
+margin-left:614px;
+cursor:pointer;
+}
+.submit-buttonambros:hover {
+background-image:url('../img/buttons/OkHover.png');
+}
+#full_name {
+border-top:1px solid #d9d9d9;
+border-left:1px solid #f2f2f2;
+}
+#onsom {
+background-color:#ffffff;
+width:1024px;
+height:463px;
+text-align:left;
+}
+#textOnsom {
+font-size:12px;
+margin-top:-23px;
+margin-left:213px;
+width:225px;
+height:auto;
+}
+.titol {
+font-family:lato;
+font-weight:700;
+font-size:18px;
+color:#000000;
+}
+#quisom {
+text-align: center;
+background-color:#ffffff;
+width:1024px;
+height:1049px;
+}
+#brands {
+background-color:#ffffff;
+width:1024px;
+height:650px;
+}
+#brands2 {
+float:left;
+}
+
+#products {
+background-color:#ffffff;
+height:1478px;
+width:1024px;
+text-align:right;
+}
+#rings {
+background-color:#ffffff;
+height:1370px;
+width:1024px;
+}
+#earrings {
+background-color:#ffffff;
+height:1709px;
+width:1024px;
+}
+#txt1 {
+	font-family: Lato;
+	font-weight: 700;
+	font-style:italic;
+	font-size: 13px;
+	text-align: left;
+
+}
+#txt2 {
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 13px;
+	text-align: left;
+}
+#txt3 {
+	font-family: Lato;
+	font-size: 13px;
+	text-align: left;
+	color: #F99D1C;
+	letter-spacing:-0.2em;
+	font-weight: 700;
+}
+
+
+
+
+
+
+/*********************************************************/
+/* CONSTANTES */
+.imageright {
+	position: absolute;
+	width: auto;
+	left:173px;
+	z-index:0;
+}
+.boxleft {
+	position: absolute;
+	width: auto;
+	z-index:1;
+	
+}
+
+.imageleft {
+	position: absolute;
+	width: auto;
+	z-index:0;
+}
+.boxright {
+	position: absolute;
+	width: auto;
+	z-index:1;
+	left:334px;
+	
+}
+.text {
+	font-family: 'Lato';
+	font-weight: 300;
+
+	font-size: 14px;
+	color: #FFFFFF;
+}
+/*************************************************************/
+#image1{
+	width:1000px;
+	float:left;
+	position:relative;
+}
+#image1 .image1text {
+	width: 116px;
+	position: absolute;
+	top: 140px;
+	left: 352px;
+	height: auto;
+	z-index:1;
+	text-align: left;
+}
+
+
+
+#image2{
+	width:1000px;
+	float:left;
+	position:relative;
+	left:512px;
+}
+#image2 .image2text {
+	width: 135px;
+	position: absolute;
+	top: 140px;
+	left: 22px;
+	height: auto;
+	z-index:1;
+	text-align: right;
+}
+
+#image3{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:339px;
+}
+#image3 .image3text {
+	width: 100px;
+	position: absolute;
+	top: 140px;
+	left: 55px;
+	height: auto;
+	z-index:1;
+	text-align: right;
+}
+
+#image4{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:339px;
+	left:512px;
+}
+#image4 .image4text {
+	width: 135px;
+	position: absolute;
+	top: 140px;
+	left: 22px;
+	height: auto;
+	z-index:1;
+	text-align: right;
+}
+
+#image5{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:678px;
+}
+#image5 .image5text {
+	width: 116px;
+	position: absolute;
+	top: 140px;
+	left: 352px;
+	height: auto;
+	z-index:1;
+	text-align: left;
+}
+
+
+
+#image6{
+	width:1000px;
+	float:left;
+	position:relative;
+	left:512px;
+	top:678px;
+}
+#image6 .image6text {
+	width: 135px;
+	position: absolute;
+	top: 140px;
+	left: 352px;
+	height: auto;
+	z-index:1;
+	text-align: left;
+}
+
+#image7{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:1017px;
+}
+#image7 .image7text {
+	width: 100px;
+	position: absolute;
+	top: 140px;
+	left: 55px;
+	height: auto;
+	z-index:1;
+	text-align: right
+}
+
+#image8{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:1017px;
+	left:512px;
+}
+#image8 .image8text {
+	width: 135px;
+	position: absolute;
+	top: 140px;
+	left: 22px;
+	height: auto;
+	z-index:1;
+	text-align: right;
+}
+
+#image9{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:1356px;
+}
+#image9 .image9text {
+	width: 116px;
+	position: absolute;
+	top: 140px;
+	left: 352px;
+	height: auto;
+	z-index:1;
+}
+
+
+
+#image10{
+	width:1000px;
+	float:left;
+	position:relative;
+	top:1356px;
+	left:512px;
+}
+#image10 .image10text {
+	width: 135px;
+	position: absolute;
+	top: 140px;
+	left: 62px;
+	height: auto;
+	z-index:1;
+}
+
+
+/**************************************************************************************/
+
+#button_product {
+	float:left;
+	position:relative;
+}
+#button_product .button_product {
+	width: auto;
+	position: absolute;
+	height: auto;
+	z-index: 0;
+	color: #FFFFFF;
+}
+.title_left {
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 36px;
+}
+.subtitle_left {
+	font-family: 'Lato';
+
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.title_right {
+	font-family: "Lato";
+
+	font-weight: 300;
+	font-size: 36px;
+	text-align:left;
+}
+.subtitle_right {
+	font-family: "Lato";
+
+	font-weight: 300;
+	font-size: 12px;
+	text-align:left;
+}
+
+
+ul.head_menu {
+list-style:none;
+margin-top:5px;
+}
+ul.head_menu li {
+position:relative; /* Las coordenadas de los ul inferiores serán relativas al <li> que los contiene */
+   width:auto;
+}
+ul.head_menu ul {
+display:none;
+   list-style:none;
+   
+}
+ul.head_menu ul > li {
+background-color:#e9e9ea;
+border-top: 1px solid #c1c1c1;
+margin-top:-1px;
+width:120px;
+margin-left:-40px;
+}
+ul.head_menu ul > li:hover {
+font-weight:bold;
+background-color:#c1c1c1;
+}
+ul.head_menu li:hover > ul
+{
+   display:block;
+}
+ul.head_menu> li > ul /* Solo para los ul debajo de los li de primer nivel. */
+{
+   position:absolute;
+   margin-left:362px;
+   display:none;
+   list-style:none;
+   padding-top:4px;
+   width:80px;
+}
+ul.head_menu > li /* Sólo para li de primer nivel */
+{
+   display:inline;
+}
+#blank {
+height:50px;
+}
+
+/************************/
+.top {
+	position: fixed;
+	width:auto;
+	height:auto;
+	margin-left:0px;
+	margin-top:20px;
+	z-index:99;
+}
+
+.wrap {
+margin: 0 auto;
+padding: 0px; 
+width: 0px; 
+}
+.demo-container {
+}
+/* Vertical Mega Menu Styles */
+.mega-menu{
+font-family:Lato;
+font-size:12px;
+text-align:justify;
+list-style:none;
+margin-top:0px;
+margin-left:0px;
+position: relative; /* Required */
+}
+.mega-menu li a {
+margin-left:-25px;
+display: block; 
+color: #fff; 
+width:75px;
+height:188px;
+padding-right:20px;
+background-image:url('http://ambrosjoiers.com/img/imatge-cancer-mama.png');
+background-repeat:no-repeat;
+
+}
+
+/* Mega menu container */
+.mega-menu li .sub-container {
+position: absolute; /* Required */
+background: -webkit-linear-gradient(#f6f6f6, #dad9d9);
+background: -moz-linear-gradient(#f6f6f6, #dad9d9);
+background: -o-linear-gradient(#f6f6f6, #dad9d9);
+border-radius:5px;
+box-shadow: 0px 1px 1px 0px #000000;
+height:auto;
+width:200px;
+margin-left:95px;
+}
+
+/* Styling for menu items with only 2 levels */
+.mega-menu li .sub-container.non-mega .sub {
+padding: 10px;
+}
+
